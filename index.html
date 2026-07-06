@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Matheus Henrique Eger — Infrastructure & DevOps Engineer</title>
+<meta name="description" content="Portfolio de Matheus Henrique Eger — Infraestrutura, DevOps, Homelab.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="nav" id="nav">
+  <a href="#top" class="nav__brand">
+    <span class="nav__dot"></span>
+    <span>M.EGER</span>
+  </a>
+  <nav class="nav__links">
+    <a href="#about"><span class="nav__path">~/about</span></a>
+    <a href="#skills"><span class="nav__path">~/skills</span></a>
+    <a href="#projects"><span class="nav__path">~/projects</span></a>
+    <a href="#homelab"><span class="nav__path">~/homelab</span></a>
+    <a href="#contact"><span class="nav__path">~/contact</span></a>
+  </nav>
+  <a href="#contact" class="nav__cta">Fale comigo</a>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero__inner">
+      <div class="hero__terminal">
+        <div class="terminal">
+          <div class="terminal__bar">
+            <span class="dot dot--r"></span>
+            <span class="dot dot--y"></span>
+            <span class="dot dot--g"></span>
+            <span class="terminal__title">session — matheus@egerlab</span>
+          </div>
+          <div class="terminal__body" id="terminalBody"></div>
+        </div>
+      </div>
+
+      <div class="hero__content">
+        <p class="eyebrow">~/whoami</p>
+        <h1 class="hero__title" id="heroName">&nbsp;</h1>
+        <p class="hero__role" id="heroRole">&nbsp;</p>
+        <p class="hero__tagline" id="heroTagline"></p>
+
+        <div class="hero__status">
+          <span class="pulse-dot"></span>
+          <span id="heroStatus"></span>
+        </div>
+
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary">Ver projetos</a>
+          <a href="#contact" class="btn btn--ghost">Contato</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__scroll">
+      <span>scroll</span>
+      <span class="hero__scroll-line"></span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <p class="eyebrow">~/about</p>
+    <div class="about__grid">
+      <h2 class="section__title">Sobre</h2>
+      <p class="about__text" id="aboutText"></p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section--alt" id="skills">
+    <p class="eyebrow">~/skills</p>
+    <h2 class="section__title">Stack &amp; ferramentas</h2>
+    <div class="skills__grid" id="skillsGrid"></div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <p class="eyebrow">~/projects</p>
+    <h2 class="section__title">Projetos</h2>
+    <div class="projects__grid" id="projectsGrid"></div>
+  </section>
+
+  <!-- HOMELAB / TOPOLOGY -->
+  <section class="section section--alt" id="homelab">
+    <p class="eyebrow">~/homelab</p>
+    <h2 class="section__title">Topologia do EgerLab</h2>
+    <p class="section__sub">Um mapa simplificado da infraestrutura que uso para testar tudo antes da produção.</p>
+    <div class="topology" id="topology"></div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section--contact" id="contact">
+    <p class="eyebrow">~/contact</p>
+    <h2 class="section__title">Vamos conversar</h2>
+    <p class="section__sub">Aberto a novas oportunidades em infraestrutura, redes e DevOps.</p>
+    <div class="contact__links" id="contactLinks"></div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <span id="footerName"></span>
+  <span class="footer__dim">Construído com HTML, CSS e JS puro · <span id="footerYear"></span></span>
+</footer>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
