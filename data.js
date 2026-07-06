@@ -22,54 +22,46 @@ const SITE_DATA = {
   ],
 
   about:
-`Cuido de infraestrutura de ponta a ponta: da rede e da virtualização até a automação que mantém tudo de pé sem depender de mim para cada detalhe.
+`Bacharel em Sistemas de Informação, hoje responsável pela infraestrutura de TI de um escritório contábil em Santa Catarina — do suporte técnico do dia a dia ao planejamento de longo prazo.
 
-Meu jeito de trabalhar nasceu no homelab — o EgerLab é onde eu testo topologias, quebro serviços de propósito e aprendo a consertar antes que o problema apareça em produção. Gosto de documentar o que construo e de simplificar processos manuais com scripts e pipelines.
+Meu jeito de trabalhar nasceu no homelab — o EgerLab é onde eu testo topologias, quebro serviços de propósito e aprendo a consertar antes que o problema apareça em produção. Gosto de documentar o que construo e de simplificar processos manuais com scripts e automação.
 
-Hoje meu foco está em virtualização (Proxmox), redes e segurança de borda (OPNsense), armazenamento (TrueNAS/ZFS) e automação de infraestrutura.`,
+Hoje meu foco está em virtualização (Proxmox), redes e segurança de borda (OPNsense), armazenamento (TrueNAS) e monitoramento (Zabbix, Wazuh).`,
 
   skills: [
     {
-      title: "Virtualização",
-      items: ["Proxmox VE", "LXC", "VMware"]
+      title: "Infraestrutura",
+      items: ["Linux", "Windows Server", "Proxmox VE", "Docker", "Samba", "TrueNAS", "OPNsense"]
     },
     {
-      title: "Containers",
-      items: ["Docker", "Docker Compose", "Portainer"]
-    },
-    {
-      title: "Redes & Segurança",
-      items: ["OPNsense", "VLAN", "WireGuard", "Firewall"]
-    },
-    {
-      title: "Armazenamento",
-      items: ["TrueNAS", "ZFS", "NFS/SMB", "Backups 3-2-1"]
-    },
-    {
-      title: "Automação",
-      items: ["Bash", "Python", "GitHub Actions", "Cron"]
+      title: "Redes",
+      items: ["TCP/IP", "VLAN", "NAT", "DNS", "VPN", "Firewall", "Routing"]
     },
     {
       title: "Monitoramento",
-      items: ["Zabbix", "Grafana", "Uptime Kuma"]
+      items: ["GLPI", "Zabbix", "Wazuh", "Tactical RMM"]
+    },
+    {
+      title: "Desenvolvimento",
+      items: ["Python", "SQL", "MongoDB", "Git", "GitHub"]
     },
   ],
 
   projects: [
     {
-      title: "Modernização de Infraestrutura",
-      desc: "Migração de servidores físicos legados para um ambiente virtualizado em Proxmox, com segmentação de rede via VLANs e firewall dedicado em OPNsense.",
-      tags: ["Proxmox", "OPNsense", "VLAN"]
+      title: "Modernização de Infraestrutura Corporativa",
+      desc: "Projeto contínuo em um escritório contábil: virtualização em Proxmox VE, segmentação de rede, migração para OPNsense, backup, monitoramento e documentação.",
+      tags: ["Proxmox", "OPNsense", "Backup"]
     },
     {
       title: "EgerLab — Homelab",
-      desc: "Laboratório pessoal usado como ambiente de testes antes de qualquer mudança ir para produção: virtualização, storage, DNS, monitoramento e VPN.",
+      desc: "Laboratório pessoal onde documento estudos e experimentos de infraestrutura, Linux, automação e software livre antes de levar para produção.",
       tags: ["Proxmox", "TrueNAS", "Docker"]
     },
     {
-      title: "Suporte a Implantação de ERP",
-      desc: "Ponte técnica entre TI e o time de implantação contábil/financeira: integrações bancárias, certificados digitais A1/A3 e automação de rotinas fiscais.",
-      tags: ["ERP", "Automação", "Integrações"]
+      title: "Automação de Processos",
+      desc: "Fluxos automatizados com Docker e n8n para reduzir tarefas manuais recorrentes de TI, além de monitoramento com Zabbix e Wazuh.",
+      tags: ["Docker", "n8n", "Wazuh"]
     },
     {
       title: "Este Portfólio",
@@ -89,7 +81,7 @@ Hoje meu foco está em virtualização (Proxmox), redes e segurança de borda (O
       { id: "proxmox",  x: 380, y: 262, w: 140, h: 52, label: "Proxmox VE",      sub: "Hypervisor" },
       { id: "docker",   x: 70,  y: 352, w: 160, h: 52, label: "Docker Host",     sub: "Apps & serviços" },
       { id: "truenas",  x: 260, y: 352, w: 160, h: 52, label: "TrueNAS",         sub: "Storage / ZFS" },
-      { id: "monitor",  x: 460, y: 352, w: 160, h: 52, label: "Zabbix + Grafana",sub: "Monitoramento" },
+      { id: "monitor",  x: 460, y: 352, w: 160, h: 52, label: "Zabbix + Wazuh", sub: "Monitoramento" },
       { id: "dns",      x: 660, y: 352, w: 160, h: 52, label: "Pi-hole",         sub: "DNS / Ad-block" },
     ],
     edges: [
@@ -103,10 +95,9 @@ Hoje meu foco está em virtualização (Proxmox), redes e segurança de borda (O
     ]
   },
 
-  // Atualize com seus links reais antes de publicar.
   contact: [
-    { label: "E-mail",   href: "mailto:mateuseger@gmail.com" },
+    { label: "E-mail",   href: "mailto:Matheus.Eger@outlook.com" },
     { label: "GitHub",   href: "https://github.com/MatheusEger" },
-    { label: "LinkedIn", href: "https://linkedin.com/in/Matheus-Eger" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/matheus-eger/" },
   ],
 };

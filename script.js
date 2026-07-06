@@ -44,8 +44,7 @@
     $("heroRole").textContent = D.role;
     $("heroTagline").textContent = D.tagline;
     $("heroStatus").textContent = D.status;
-    $("footerName").textContent = D.name;
-    $("footerYear").textContent = new Date().getFullYear();
+    $("footerName").textContent = `${D.name} · ${new Date().getFullYear()}`;
     document.title = `${D.name} — ${D.role}`;
   }
 

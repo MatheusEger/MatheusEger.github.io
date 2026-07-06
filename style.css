@@ -286,6 +286,13 @@ a { color: inherit; text-decoration: none; }
   background: linear-gradient(var(--text-faint), transparent);
 }
 
+/* Em telas mais baixas (laptops comuns a 100% de zoom), o conteúdo
+   centralizado do hero chega perto do rodapé da seção — some com a
+   dica de scroll aqui para não sobrepor os botões. */
+@media (max-height: 820px) {
+  .hero__scroll { display: none; }
+}
+
 /* ============================================
    SECTIONS
    ============================================ */

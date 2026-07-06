@@ -15,17 +15,9 @@ Site estático (HTML + CSS + JS puro, sem frameworks) pronto para publicar no Gi
 **Para editar o conteúdo (nome, sobre, skills, projetos, links), mexa só no `data.js`.**
 Não é necessário tocar no `script.js` nem no `index.html` para atualizar textos.
 
-## ⚠️ Antes de publicar
+## Personalizando
 
-No `data.js`, atualize a seção `contact` com seus links reais:
-
-```js
-contact: [
-  { label: "E-mail",   href: "mailto:SEU-EMAIL@dominio.com" },
-  { label: "GitHub",   href: "https://github.com/SEU-USUARIO" },
-  { label: "LinkedIn", href: "https://linkedin.com/in/SEU-USUARIO" },
-],
-```
+Os links de contato, textos, skills e projetos já estão preenchidos com seus dados reais no `data.js`. Se algo mudar (novo cargo, novo projeto, novo link), edite só esse arquivo — o `script.js` já sabe renderizar qualquer alteração.
 
 ## Como testar localmente
 
