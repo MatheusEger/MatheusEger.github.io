@@ -6,7 +6,7 @@
 
 const SITE_DATA = {
 
-  name: "Matheus Henrique Eger",
+  name: "Matheus Eger",
   role: "Infrastructure & DevOps Engineer",
   tagline: "Infraestrutura, virtualização e automação — testado primeiro no homelab, depois em produção.",
   status: "Aberto a novas oportunidades",
