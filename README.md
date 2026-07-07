@@ -1,6 +1,6 @@
 # Portfólio — Matheus Eger
 
-Site estático (HTML + CSS + JS puro, sem frameworks) pronto para publicar no GitHub Pages.
+Site estático (HTML + CSS + JS, sem frameworks) pronto para publicar no GitHub Pages.
 
 ## Estrutura
 
